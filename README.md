@@ -1,5 +1,6 @@
 GROWATT SOLAR POWER MONITOR FOR ADAFRUIT MATRIX PORTAL
 
+
 Monitor your solar power production from your Matrix Portal.
 Know when to run your washing machine, air fryer, electric weed whacker, etc.
 Use less power from the grid. Save money, and the planet while you're at it.
@@ -24,7 +25,7 @@ blue = making API call; red = exception handling.
 
 CREDITS
 
-This code is based on indykoning's Growatt Server https://github.com/indykoning
+This code is based on indykoning's Growatt Server: https://github.com/indykoning.
 I learned a lot adapting this code for the Matrix Portal.
 Credit also to ajs256 for the efficient graphics setup code.
 Credit to Tekktrik for assistance modifying adafruit_requests to handle multiple cookies.
