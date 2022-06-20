@@ -8,6 +8,7 @@ This is a hobby project I made while learning to code. I'm very happy to hear ab
 any issues and mistakes because I'm trying to improve.
 
 SETUP
+
 You will need to ensure you have adafruit_hashlib installed on your MatrixPortal.
 You will need a recent version of adafruit_requests too. If you have an older version
 frozen into your firmware, you may need to put the recent version in the root of
@@ -17,16 +18,19 @@ You will also need to add growatt_username and growatt_password to your secrets.
 growatt_plant_id
 
 STATUS NEOPIXEL
+
 Green = loading; yellow = preparing API call or processing API response;
 blue = making API call; red = exception handling.
 
 CREDITS
+
 This code is based on indykoning's Growatt Server https://github.com/indykoning
 I learned a lot adapting this code for the Matrix Portal.
 Credit also to ajs256 for the efficient graphics setup code.
 Credit to Tekktrik for assistance modifying adafruit_requests to handle multiple cookies.
 
 FEEDBACK AND ISSUES
+
 This version is fairly stable but can crash occasionally. I'm still looking into the cause.
 Happy to hear about issues and features that would be useful to add.
 E.g. I would like to have some kind of graphic to make it more appealing. A sun, or a leaf
